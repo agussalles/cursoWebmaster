@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(224, 218, 193);
+}
+.card {
+    margin-top: 30px;
+    border-radius: 0;
+    background-color: rgb(95, 125, 100);;
+    color: rgb(224, 218, 193);
+    border: none;
+}
+.card h1{
+    color: rgb(218, 247, 166);
+}
+.card img {
+    filter: grayscale(100%);
+}
+.display-5{
+    color: rgb(95, 125, 100);
+}
+.footer {
+    background-color: rgb(95, 125, 100);
+    color: rgb(218, 247, 166);
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+}
