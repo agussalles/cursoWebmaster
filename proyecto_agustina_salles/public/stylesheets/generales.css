@@ -1,0 +1,193 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: whitesmoke;
+}
+
+header{
+    background-color: #3b917b;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header img{
+    max-width: 40%;
+    margin: 1em 0 0 0;
+}
+
+nav{
+    background-color: #3b917b;
+    padding: 1.5em 0;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: auto;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 1em 2em;
+}
+
+nav ul li a:hover{
+    background-color: #347e6b;
+}
+
+nav ul li a.activo{
+    color:#f7bca6;
+    border: #f7bca6 solid 2px;
+}
+
+footer{
+    background-color: #3b917b;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    clear: both;
+    color:whitesmoke;
+    padding: 2em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.holder{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+h2{
+    color: #e9653a;
+    font-family: 'Montserrat Alternates', sans-serif;;
+    font-weight: 800;
+    margin: 0 0 1em;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+/* estilos propios del inicio */
+.homeimg{
+    margin-bottom: 2em;
+}
+
+.columnas{
+    overflow: hidden;
+}
+
+.bienvenidos, .destacado{
+    box-sizing: border-box;
+}
+
+.bienvenidos{
+    width: 75%;
+    padding-right: 2em;
+}
+
+.destacado{
+    width: 25%;
+    background-color: rgba(59, 145, 123, 0.2);
+}
+
+/* estilos propios del portfolio */
+.trabajos{
+    padding: 0 2em 0 2em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.portfolio{
+    column-count: 4;
+    column-gap: 1.5em;
+}
+
+.portfolio .foto{
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
+.portfolio .foto img{
+    width: 100%;
+}
+
+/* estilos propios de contacto */
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna.left{
+    /* border-right: 1px solid gray; */
+}
+
+.columna.right{
+    background-color: rgba(59, 145, 123, 0.2);
+}
+
+.columna.right p{
+    font-size: 0.9em;
+}
+
+.columna.right ul li{
+    font-size: 0.9em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background-color: #f7bca6;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.4); */
+    color: #347e6b;
+    font-size: 1em;
+    font-weight: 700;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones{
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+<div class="container" style="margin: 50px auto;">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Agregar una nueva nota de blog</h4>
+            <form action="/admin/blog/agregar" method="post">
+                <div class="form-group" style="margin-bottom: 2em;">
+                    <input type="text" name="titulo" class="form-control" placeholder="Título">
+                </div>
+                <div class="form-group" style="margin-bottom: 2em;">
+                    <textarea name="subtitulo" class="form-control" placeholder="Subtítulo"></textarea>
+                </div>
+                <div class="form-group" style="margin-bottom: 2em;">
+                    <textarea name="cuerpo" class="form-control" placeholder="Cuerpo"></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark" style="text-align: center;">Agregar</button>
+            </form>
+            {{#if error}}
+            <h5>{{message}}</h5>
+            {{/if}}
+        </div>
+    </div>
+</div>

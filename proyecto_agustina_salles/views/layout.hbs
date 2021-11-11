@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DCV Agustina Salles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/normalize.css">
+  <link rel="stylesheet" href="/stylesheets/generales.css">
+</head>
+
+<body>
+  <!-- arranca cabecera -->
+  <header>
+    <div class="holder">
+      <img src="/images/logos.png" alt="Agustina Salles - La Retobada">
+    </div>
+  </header>
+  <!-- fin cabecera -->
+
+  <!-- arranca menú -->
+  <nav>
+    <div class="holder"></div>
+    <ul>
+      <li><a href="/" class="{{#if isHome}}activo{{/if}}">Inicio</a></li>
+      <li><a href="/portfolio" class="{{#if isPortfolio}}activo{{/if}}">Trabajos</a></li>
+      <li><a href="/blog" class="{{#if isBlog}}activo{{/if}}">Blog</a></li>
+      <li><a href="/contacto" class="{{#if isContacto}}activo{{/if}}">Contacto</a></li>
+    </ul>
+    </div>
+  </nav>
+  <!-- fin menú -->
+
+  <!-- arranca main -->
+  {{{body}}}
+  <!-- fin main -->
+
+  <!-- arranca footer -->
+  <footer>
+    <p>Diseñado por Agustina Salles - &copy;2021</p>
+  </footer>
+  <!-- fin footer -->
+</body>
+
+</html>
